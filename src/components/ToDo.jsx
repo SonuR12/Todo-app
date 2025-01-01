@@ -79,7 +79,7 @@ const ToDo = () => {
 
     return (
         <div>
-            <div className="mx-auto relative top-24 z-1 lg:w-[40%] w-[90%] rounded-lg p-6 min-h-[75vh] flex flex-col text-left bg-violet-100 shadow-2xl">
+            <div className="mx-auto relative top-24 z-1 lg:w-[40%] w-[90%] rounded-lg p-6 min-h-[73vh] flex flex-col text-left bg-violet-100 shadow-2xl">
                 <div>
                     <h1 className='text-center text-2xl font-bold text-violet-700'>ToDo - Manage your daily task at one place</h1>
                     <h2 className='py-4 pt-8 font-bold text-xl text-violet-700'>Add a Todo</h2>
@@ -102,7 +102,7 @@ const ToDo = () => {
                     {/* Main Todos List */}
                     <div>
                         <h2 className='font-bold text-xl text-violet-700 mb-2 mt-1'>Your Todos</h2>
-                        <div className="overflow-scroll h-96">
+                        <div className="overflow-scroll h-[53vh]">
 
                             {filteredTodos.length === 0 && <div className="mt-2">No Todos...</div>}
 
