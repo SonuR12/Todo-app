@@ -6,11 +6,11 @@ const NavBar = () => {
         <ul className='hover:cursor-pointer'>
             <li>Your ToDo...</li>
         </ul>
-      <ul className='flex sm:gap-8 gap-2 hover:cursor-pointer'>
+      {/* <ul className='flex sm:gap-8 gap-2 hover:cursor-pointer'>
         <li>Home</li>
         <li>Tasks</li>
         <li>Deleted</li>
-      </ul>
+      </ul> */}
     </div>
   )
 }
